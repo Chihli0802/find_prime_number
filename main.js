@@ -23,7 +23,8 @@ btn.addEventListener("click", function () {
 
     let result = "";
     arr.forEach(function (i) {
-        result += `<span class="mx-1">${i}</span>`
+        result += `${i}, `
+
         console.log(arr);
     })
     answer.innerHTML = result;

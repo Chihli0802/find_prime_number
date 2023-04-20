@@ -15,20 +15,23 @@
 
 <body>
 
-    <div class="title w-50 bg-white rounded m-auto mt-5  p-1">
+    <div class="title w-50 bg-white rounded m-auto mt-5 p-1 shadow-sm">
         <h1 class="text-center">找質數</h1>
     </div>
 
-    <div class="area w-50 bg-white rounded m-auto mt-5 p-2">
+    <div class="area w-50 bg-white rounded m-auto mt-5 p-2 shadow-sm">
 
-        <div class="area1 d-flex justify-content-around">
+        <!-- 輸入區 -->
+        <div class="area1 d-flex justify-content-around mt-3">
             <h2>找</h2>
             <input type="number" id="input">
             <h2>內的質數</h2>
-            <button type="button" class="btn btn-primary border-warning" id="btn">搜尋</button>
+            <button type="button" class="btn btn-warning" id="btn">搜尋</button>
         </div>
 
-        <div class="answer p-2" id="answer">
+        <!-- 答案顯示區 -->
+        <div class="answer p-5" >
+            <p id="answer"></p>
         </div>
 
     </div>

@@ -10818,8 +10818,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.area {
-  height: 300px;
+body {
+  width: 100vw;
+  height: 100nh;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+#answer {
+  word-wrap: break-word;
+}
+
+h2, .h2, h1, .h1 {
+  margin-bottom: 0px;
 }
 
 body {
